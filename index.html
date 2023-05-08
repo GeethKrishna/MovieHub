@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHub</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="logo">
+            <div class="container">
+                <p>Movie<span>Hub.</span></p>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <div class="search-element">
+
+                <h3>Search Movie:</h3>
+                <input type="text" class="form-control" placeholder="Search the Movie here......" id="movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+                <div class="search-list" id="search-list" >
+                    <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="blade_runner_twenty_forty_nine_ver4.jpg" alt="Image not found">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Title of the movie.</h3>
+                            <p>year</p>
+
+                        </div> 
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- <div class="movie-poster">
+                        <img src="blade_runner_twenty_forty_nine_ver4.jpg" alt="The movie poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The title of the movie</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 2022</li>
+                            <li class="rated">Ratings: PG-13</li>
+                            <li class="released">Realeased: 05 May 2022</li>
+                        </ul>
+                        <p class="genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                        <p class="writter"><b>Writter:</b> James Gunn,.....</p>
+                        <p class="actors"><b>Actors:</b> Zeo Saldana, Chris Pratt.....</p>
+                        <p class="plot"><b>Plot:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum id beatae voluptatibus maiores ullam magni optio earum, adipisci, provident autem officia reiciendis soluta quidem iure consequatur, iusto consequuntur in inventore.</p>
+                        <p class="language"><b>Language:</b> English</p>
+                        <p class="awards"><b><i class="fas fa-award"></i></b> Nominated for 1 oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
